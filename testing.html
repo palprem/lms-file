@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.0-canary.14/tailwind.min.css"
+      integrity="sha512-zXhmHxwXn8kUvZApt3iuxFG7cAHa2wongnyRnq2uAxppI5t/J5pz7I0mrm409qZaAu4KLhRtFTaNhO86OWQv5A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+    <style>
+      .dropdown:hover .dropdown-menu {
+        display: block;
+      }
+    </style>
+  </head>
+  <body class="bg-white">
+    <div>
+      <nav class="bg-white shadow py-4 ">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-10">
+            <div class="flex items-center">
+              <div class="flex-shrink-0">
+                <img class="h-8 w-8 " src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="Workflow">
+              </div>
+              <div class="hidden md:block">
+                <div class="ml-3 mt-4 flex items-baseline ">
+                  <!-- ************************** -->
+                  <div class="">
+                  <a href="#" class="  inline-flex justify-center  font-medium">MyProgress</a>
+                  </div>
+
+                  <!-- ************************* -->
+                  <ul class="w-full ">
+                    <li class="dropdown   rounded-full pl-5  bg-white hover:border-gray-400 focus:outline-none appearance-none">
+                        <ul class="flex">
+                          <li class="inline-flex
+                          justify-center
+                          w-full
+                          border-0
+                          font-medium">Learn<li>
+                            <li><svg class="mt-1 h-5 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                              <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                          </li>
+                        </ul>
+                        
+                        <div class="dropdown-menu absolute hidden h-auto flex pt-4">
+                            <ul style="width: 356px;" class="block  bg-white shadow px-3 py-2">
+                                <li class="py-1"><a href="#" class="text-gray-700 block px-4 py-2 font-medium" role="menuitem"
+                                  tabindex="-1"
+                                  id="menu-item-0"
+                                  ><i class="fas fa-book-open mr-1" style="color:blue"></i>
+                                  Course
+                                  <p class="text-xs text-gray-400 font-none ml-6">
+                                    Exclusive course and learning tracks for your
+                                    interview prev
+                                  </p></a
+                                ></li>
+                                <li class="py-1"><a  href="#"  class="text-gray-700 block px-4 py-2 font-medium"
+                                  role="menuitem"
+                                  tabindex="-1"
+                                  id="menu-item-1"
+                                  ><i class="far fa-play-circle mr-2" style="color:blue; "></i>Video Library
+                                  <p class="text-xs text-gray-400 font-none ml-6">
+                                    Watch experts answer and real internview question
+                                  </p></a
+                                ></li>
+                                <li class="py-1"><a
+                                  href="#"
+                                  class="text-gray-700 block px-4 py-2 font-medium"
+                                  role="menuitem"
+                                  id="menu-item-2"
+                                  ><i class="fas fa-building mr-2" style="color:blue;" ></i>Compny Guide<p class="text-xs text-gray-400 font-none ml-6">
+                                    Get an inside look at top compnay internview process
+                                  </p></a
+                                >
+                                <p
+                                class="mt-5 text-sm text-gray-600"  role="menuitem"  tabindex="-1" id="menu-item-4"
+                                  >TOP COURSE</p
+                                >
+                                <a href="#"  class="text-gray-700 block px-4 py-1 font-medium"  role="menuitem"
+                                  id="menu-item-2"
+                                  >Product Management</a
+                                >
+                                <a  href="#"  class="text-gray-700 block px-4 py-2 font-medium"  role="menuitem"
+                                  id="menu-item-2"
+                                  >Techinal Program Management</a
+                                >
+                                <a  href="#"  class="text-gray-700 block px-4 py-2 font-medium" role="menuitem"
+                                  id="menu-item-2"
+                                  >System Design</a
+                                >
+                                <a  href="#"  class="text-gray-700 block px-4 py-2 font-medium"  role="menuitem"
+                                  id="menu-item-2"
+                                  >Engineering Management</a
+                                >
+                                <a href="#"  class="text-gray-700 block px-4 py-2 font-medium"  role="menuitem"
+                                  id="menu-item-2"
+                                  >Engineering Management</a
+                                >
+                                <a   href="#" class="text-blue-700 block px-4 py-2 font-medium"  role="menuitem"
+                                  id="menu-item-2"
+                                  >View All Course<i class="fas fa-arrow-right" style="color: blue; margin-left: 1rem;"></i></a
+                                >
+                              </li>
+                            </ul>
+                        </div>
+                    </li>
+                  </ul>
+                  <!-- **************************************************************** -->
+                  <ul class="w-full">
+                    <li class="dropdown   rounded-full  h-10  pl-5  bg-white hover:border-gray-400 focus:outline-none appearance-none">
+                        <ul class="flex">
+                          <li class="inline-flex justify-center  w-full border-0 font-medium">Practice</li>
+                            <li><svg class="mt-1 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                              <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                          </li>
+                        </ul>
+                        
+                        <div class="dropdown-menu absolute hidden h-auto flex ">
+                            <ul style="width: 356px;" class="block  bg-white shadow px-3 py-2">
+                                <li class="py-1"><a href="#" class="text-gray-700 block px-4 py-2 font-medium" role="menuitem"
+                                  tabindex="-1"
+                                  id="menu-item-0"
+                                  ><i class="fas fa-comments " style="color:blue; " ></i>
+                                  interview question
+                                  <p class="text-xs text-gray-400 font-none ml-6">
+                                    Exclusive course and learning tracks for your
+                                    interview prev
+                                  </p></a
+                                ></li>
+                                <li class="py-1"><a  href="#"  class="text-gray-700 block px-4 py-2 font-medium"
+                                  role="menuitem"
+                                  tabindex="-1"
+                                  id="menu-item-1"
+                                  ><i class="fas fa-users mr-2" style="color:blue; "></i>Peer-to-Peer internview <p class="text-xs text-gray-400 font-none ml-6">
+                                    Watch experts answer and real internview question
+                                  </p></a
+                                ></li>
+                                <li class="py-1"><a
+                                  href="#"
+                                  class="text-gray-700 block px-4 py-2 font-medium"
+                                  role="menuitem"
+                                  id="menu-item-2"
+                                  ><i class="fas fa-building mr-2" style="color:blue;" ></i>Expert Coatching<p class="text-xs text-gray-400 font-none ml-6">
+                                    Get an inside look at top compnay internview process
+                                  </p></a >
+                               
+                              </li>
+                            </ul>
+                        </div>
+                    </li>
+                  </ul>
+                  <!-- ************************************************************ -->
+                  <div class="ml-4">
+                    <a href="#" class="  inline-flex justify-center  font-medium">Pricing</a>
+                    </div>
+
+                 <!-- ******************************************************** -->
+                 <ul class="w-full">
+                  <li class="dropdown   rounded-full  h-10  pl-5  bg-white hover:border-gray-400 focus:outline-none appearance-none">
+                      <ul class="flex">
+                        <li class="inline-flex justify-center  w-full border-0 font-medium"><a href="" class="font-bold">...</a></li>
+                          
+                      </ul>
+                      
+                      <div class="dropdown-menu absolute hidden h-auto flex pt-4">
+                          <ul style="width: 356px;" class="block  bg-white shadow px-3 py-2">
+                              <li class="py-1"><a href="#" class="text-gray-700 block px-4 py-2 font-medium" role="menuitem"
+                                tabindex="-1"
+                                id="menu-item-0"
+                                ><i class="fas fa-briefcase" style="color:blue; "></i>
+                                Jobs
+                                <p class="text-xs text-gray-400 font-none ml-6">
+                                  Exclusive course and learning tracks for your
+                                  interview prev
+                                </p></a
+                              ></li>
+                              <li class="py-1"><a  href="#"  class="text-gray-700 block px-4 py-2 font-medium"
+                                role="menuitem"
+                                tabindex="-1"
+                                id="menu-item-1"
+                                ><i class="fas fa-pen mr-2" style="color:blue; "></i>Blog<p class="text-xs text-gray-400 font-none ml-6">
+                                  Watch experts answer and real internview question
+                                </p></a
+                              ></li>
+                              <li class="py-1"><a
+                                href="#"
+                                class="text-gray-700 block px-4 py-2 font-medium"
+                                role="menuitem"
+                                id="menu-item-2"
+                                ><i class="fas fa-info-circle mr-2" style="color:blue;" ></i>About US<p class="text-xs text-gray-400 font-none ml-6">
+                                  Get an inside look at top compnay internview process
+                                </p></a >
+                             
+                            </li>
+                          </ul>
+                      </div>
+                  </li>
+                </ul>
+    
+                </div>
+              </div>
+            </div>
+            <div class="hidden md:block ">
+              <div class="ml-4 flex items-center md:ml-6">
+                <button class="bg-white-800 p-1 rounded-full text-green-400 hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                  <!-- Heroicon name: outline/bell -->
+                  <ul class="flex">
+                    <li>
+                      <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                      </svg>
+                    </li>
+                    <li> Upgrade </li>
+                  </ul>
+                </button>
+    
+                <!-- Profile dropdown -->
+                <div class="ml-3 relative">
+                  <div>
+                    <button type="button" class="max-w-xs bg-gray-800 rounded-full flex items-center text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                      <span class="sr-only">Open user menu</span>
+                      <img class="h-8 w-8 rounded-full" src="https://ialabs.co.in/wp-content/uploads/2020/10/Dark_logo.png" alt="">
+                    </button>
+                  </div>
+    
+                </div>
+              </div>
+            </div>
+            <div class="-mr-2 flex md:hidden">
+              <!-- Mobile menu button -->
+              <button type="button" class="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <!--
+                  Heroicon name: outline/menu
+    
+                  Menu open: "hidden", Menu closed: "block"
+                -->
+                <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+                <!--
+                  Heroicon name: outline/x
+    
+                  Menu open: "block", Menu closed: "hidden"
+                -->
+                <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+      <div class="ml-10  ...">
+      <div class="grid grid-rows-1 grid-flow-col gap-4">
+        <div class="col-span-1 ..." style="width:54rem ;">
+          <div class="mt-10" >
+            <img class="rounded" style="height: 15rem; width: 54rem;"  src="analyticalabtest_6b00855bbf.jpeg" alt="">
+          </div>
+          <div class="py-6">
+            <p class="text-2xl font-bold">How to Answer A/B Test Product Management Questions</p>
+            <p class="text-gray-800  py-5 font-medium text-lg">A/B tests are one of the core tools a product manager can employ for understanding user behavior. In fact, at many large tech companies, product managers are heavily involved with experimentation as a means to validate their product decisions.</p>
+          <ul class="list-disc font-normal text-lg text-gray-500">
+        <p class=" pb-3">This is why A/B testing-related questions are often asked in a product management interview. For example:</p>
+          <li class="ml-4">What experiments would you run on Google’s homepage to increase search queries?</li>
+          <li class="ml-4 py-3">What are the top 3 types of A/B Experiments you would run on Facebook ads to increase revenue?</li>
+        <p>
+          Of course, there are <a href="" class="text-blue-900">simple structures to ace any PM interview</a>, but an excellent experimentation interview answer will be sure to cover a few critical basics. Here’s the anatomy of a perfect A/B Test interview answer.
+        </p>
+        </ul>
+
+        <div class="py-5">
+          <img class="rounded"   src="1_Zl0z_Yr_Zatk_Gil1p_IAus_X2_A.png" alt="">
+        </div>
+
+        <ol class="list-decimal ">
+          <li class="text-2xl py-2 ml-5 font-medium "><p >Hypothesis</p></li>
+          <p class="font-normal text-lg text-gray-600">First, for any A/B experiment you propose, tell your interviewer what your hypothesis is. What are you actually even testing here? For example, perhaps you believe that by increasing the size of a button, it will increase the clickthrough rate (CTR).</p>
+        <li class="text-2xl py-2 ml-5 font-medium"><p>Methodology</p></li>
+        <p class="font-normal text-lg text-gray-600 ">Now that we have a hypothesis, what exactly are we going to engineer differently to test this hypothesis? For instance, let’s run two cohorts of users. In the first cohort, the users will be our control, and will see exactly the same experience as present. In the second cohort, the users will see a button that is increased in area by 50%.</p>
+        <p class="font-normal text-lg text-gray-600 py-2">It’s important to be precise here. The interviewer needs to understand what exactly is being proposed, and what the experimental setup will look like. A big component of precision in methodology is defining who exactly the experiment is being run on. Are we targeting all users on the platform? Or should we pick a proper segment of users for whom we feel this test will be particularly well suited.</p>
+      <div class="bg-gray-100 p-1">
+        <p class="p-3 font-normal text-lg text-gray-600">Don’t forget to add a control to your experiments — without a control, it’s impossible to actually gain useful insights from the data.</p>
+      </div>
+      <li class="text-2xl py-2 ml-5 font-medium"><p>Metrics</p></li>
+      <p class="font-normal text-lg text-gray-600" >Great, now we have an experimental setup. Next, you need to tell your interviewer what metrics you’ll be actually concerned with. What metrics will actually convey useful insights to your product and engineering teams?</p>
+      <p class="font-normal text-lg text-gray-600 py-2">In the button example, you’ll obviously want to be tracking CTR, but there are a few other metrics that might be relevant and are worth listing:</p>
+    <ul class="list-disc font-normal text-lg text-gray-600 ml-5 ">
+      <li><p>Impression count</p></li>
+      <li><p>CTR on other buttons on the page</p></li>
+      <li><p>Button hover time</p></li>
+      <li><p>Time spent on page</p></li>
+      <li><p>Bounce rate on the button’s clickthrough link (assuming the button leads to a new webpage)</p></li>
+    </ul>
+    <p class="font-normal text-lg text-gray-600 py-2">To answer these questions, you’ll need to understand the goals of the experiment and anticipate potential pitfalls from launching the proposed redesign.</p>
+    <li class="text-2xl ml-5 py-2 font-medium"><p> Impact</p></li>
+    <p class="list-disc font-normal text-lg text-gray-600">At the end of a day, running an experiment just tells us information. Tell your interviewer how this information will actually be useful. What metrics will you use to make an informed decision about whether or not to launch the proposed feature?</p>
+  <p class="list-disc font-normal text-lg text-gray-600 py-2">Perhaps you want to ensure that CTR increases with the redesign. Or perhaps the increased clicks on the button shouldn’t decrease the overall clicks of buttons on the page.</p>
+  <p class="list-disc font-normal text-lg text-gray-600">Ultimately, the answer to this question depends on the specific feature and the goal of the redesign. Here is a great opportunity to relate your answer to the overall vision and goals of the company.</p>
+  <li class="text-2xl py-2 ml-5 font-medium"><p>Tradeoff</p></li>
+  <p class="list-disc font-normal text-lg text-gray-600">Lastly, every proposed redesign or feature has some sort of tradeoff. What are some potential pitfalls to launching your proposed feature that might not be evident via a purely data-based analysis?</p>
+  <p class="list-disc font-normal text-lg text-gray-600 py-2">For example, perhaps, by making the button larger, you’ll increase the CTR on that button in question at the expense of other elements on the page. Some other great examples of points to make in typical A/B interview questions are qualities like “meaningful interactions” and user delight. These are not easily captured via metrics, and therefore are often missed in an overly quantitative mindset.</p>
+  </ol>
+
+  <ul class="flex py-20">
+    <li><p class="font-medium text-xl text-gray-500 mr-3">Was this helpful?</p></li>
+    <li><button class=" border-l-2 border-t-2 border-b-2 px-4 py-1 rounded-l text-yellow-400"><i class="fas fa-thumbs-up"></i></button></li>
+    <li><button class="px-5 border-2 px-4 py-1"><i class="fas fa-thumbs-down text-yellow-400"></i></button></li>
+    <li><button class="border-r-2 border-t-2 border-b-2 py-1 rounded-r text-gray-500 px-4">Send feedback</button></li>
+    <li><button class="border-2 bg-blue-800 text-white px-4 py-2 rounded-md px-3 ml-60">Next Lesson</button></li>
+  </ul>
+          </div>
+        </div>
+
+      <div class="">
+        <div class="sticky top-0  px-8 bg-white shadow-lg block rounded-lg my-1">
+          <ul class="text-gray-600 font-normal ">
+            <li><p class="text-black py-8 text-xl font-bold">Analytical Questions</p></li>
+            <li class="py-1"><i class="fas fa-lock text-gray-400"></i><a href="" class="mx-3 ">Intoduction to Analytical & Execution</a></li>
+            <li class="py-1">  <input type="radio" name="k" ><a href="" class="mx-2 "></a>Answering A/B Test Interview Question</a></li>
+            <li class="py-1">  <input type="radio"  name="gender"><a href="" class="mx-2 "></a>Pick Youtube`s Key Metrics</a></li>
+            <li class="py-1"><i class="fas fa-lock text-gray-400"></i><a href="" class="mx-3 ">Improve Google`s Homepage</a></li>
+            <li class="py-1"><i class="fas fa-lock text-gray-400"></i><a href="" class="mx-3 ">Uber ETA</a></li>
+            <li class="py-1"><i class="fas fa-lock text-gray-400"></i><a href="" class="mx-3 ">Mock Video: A/B Test Google Maps</a></li>
+            <li class="py-1"><i class="fas fa-lock text-gray-400"></i><a href="" class="mx-3 ">Mock Interview: Airbnb Recommend</a></li>
+            <li class="py-1"><i class="fas fa-lock text-gray-400"></i><a href="" class="mx-3 ">Facebook Product Manager Interview</a></li>
+            <li class="py-1"><i class="fas fa-lock text-gray-400"></i><a href="" class="mx-3 ">Increase Stories Expiration Time</a></li>
+            <li class="py-1"><i class="fas fa-lock text-gray-400"></i><a href="" class="mx-3 ">Build Lyft`s Dashboard</a></li>
+            <li class="py-1"><i class="fas fa-lock text-gray-400"></i><a href="" class="mx-3 ">Determine Success fir Instagram Re.. </a></li>
+            <li class="py-1"><i class="fas fa-lock text-gray-400"></i><a href="" class="mx-3 ">Measure Linkeidin Events Success </a></li>
+            <li class="pb-32 pt-1"><i class="fas fa-lock text-gray-400"></i><a href="" class="mx-3 ">More Product Management Analytics </a></li>
+          </ul>
+          
+          </div>
+          <div class=" sticky  " style="top:536px; bottom: 45px;">
+            <button class="border-2 py-2 px-32 bg-blue-800 text-white" >Unlock full course</button>
+          </div>
+          
+        </div>
+        
+  </div>
+
+  
+        </div>
+        
+      </div>
+     
+   
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
